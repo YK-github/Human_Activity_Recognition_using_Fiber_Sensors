@@ -104,22 +104,6 @@ for r in range(int(roopNum)):
     
 f.close()
 
-#print('Mean=' + str(Mean))
-#print('EnergyAve='+str(EnergyAve))
-#print('Entropy='+str(Entropy))
-#print('相関係数:', correlation_coefficient)
-
-
-
-
-
-# スペクトルのプロット
-#plt.figure(1)
-#plt.subplot(211)
-#plt.plot(freq[0:int(tws)], np.abs(fil[0:int(tws)]))
-#plt.xlabel("Frequency[Hz]")
-#plt.ylabel("Amplitude")
-#plt.axis("tight")
 #plt.xlim(0, 2)#y軸の範囲の指定
 
 
